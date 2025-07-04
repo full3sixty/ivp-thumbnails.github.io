@@ -3,7 +3,7 @@ import json
 import urllib.parse
 
 # Replace with the path to your local folder containing the assets
-folder_path = r"C:\\Users\\James D\\Pictures\\IVP Thumbnails\\Debug"
+folder_path = r"C:\\Users\\f3s\\Documents\\Thumbnails\\ivp-thumbnails.github.io\\Debug"
 base_url = "https://full3sixty.github.io/ivp-thumbnails.github.io/Debug/"  # Replace with your GitHub Pages URL
 output_file = "file_list_debug.json"
 

@@ -2,9 +2,8 @@ import os
 import json
 import urllib.parse
 
-# Replace with the path to your local folder containing the assets
-folder_path = r"C:\\Users\\James D\\Pictures\\IVP Thumbnails\\Thumbnails"
-base_url = "https://full3sixty.github.io/ivp-thumbnails.github.io/Thumbnails/"  # Replace with your GitHub Pages URL
+folder_path = r"C:\\Users\\f3s\\Documents\\Thumbnails\\ivp-thumbnails.github.io\\Thumbnails"       # Thumbnail directory
+base_url = "https://full3sixty.github.io/ivp-thumbnails.github.io/Thumbnails/"  # GitHub Pages directory
 output_file = "file_list.json"
 
 def generate_json(folder_path, base_url, output_file):
@@ -25,5 +24,4 @@ def generate_json(folder_path, base_url, output_file):
 
     print(f"JSON file generated: {output_file}")
 
-# Call the function
 generate_json(folder_path, base_url, output_file)
